@@ -1,4 +1,6 @@
 
+
+
 # функция для создания файла
 import os
 
@@ -31,4 +33,6 @@ if __name__ == '__main__':
     create_file('text.js')
     create_file('text.js', 'some text')
     create_folder('new_folder2')
+
     info_path(True)
+
